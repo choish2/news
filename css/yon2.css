@@ -116,14 +116,12 @@ height: 60px;display: flex;align-items: center;;;}
 .section .edit .ad_box{width: 481px;height: 1002px;;margin: 0 auto;margin-top: 50px;display: flex;justify-content: center;align-items: center;border: 1px solid #b8b8b8;float: right;margin-left: 25px;}
 .section .edit .ad_box .ad{width: 461px;height: calc(100% - 5px);;}
 .section .edit .ad_box .ad li{width: 100%;height: 176px;
-margin-bottom: 25px;}
+margin-bottom: 23px;display: flex;}
+.section .edit .ad_box .ad li a{display: block;width: 100%;height: 100%;}
+.section .edit .ad_box .ad li a img{width: 100%;height: 100%;;}
 
 .section .edit .ad_box .ad li:nth-child(1){margin-top: 10px;}
 .section .edit .ad_box .ad li:nth-child(4){width: 100%;height: 378px;}
-.section .edit .ad_box .ad li img{width: 100%;background-size: cover;}
-
-
-
 
 .footer{width: 100%;height: 235px;background: #102039;float: left;margin: 0 auto;}
 
